@@ -1,47 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Tells the browser this is an HTML5 document -->
     <meta charset="UTF-8" />
+    <!-- Makes the page responsive (fits all screen sizes, like mobile) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title shown in the browser tab -->
     <title>WebLab</title>
+    <!-- Links external CSS stylesheet for styling -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Main wrapper that holds everything on the page -->
     <div class="parent-container">
+      <!-- Header section: typically for the title or navigation -->
       <header class="header">
         <h1 id="main-title">Jennifer's Form</h1>
       </header>
 
+      <!-- Sidebar section (currently empty, but could be for links or menus) -->
       <aside class="sidebar"></aside>
 
+      <!-- Main content of the page -->
       <main class="main-content">
+        <!-- Title for the form -->
         <h2 id="form-title">Contact Me</h2>
+        <!-- The form where users can submit their information -->
         <form id="main-form">
+          <!-- Input for the user's full name -->
           <div class="form-input-container">
             <label for="fullName">Full Name: </label>
             <input type="text" name="fullName" required />
           </div>
 
+          <!-- Input for the user's email address -->
           <div class="form-input-container">
             <label for="email">Email Address: </label>
             <input type="email" name="email" required />
           </div>
 
+          <!-- Textarea for writing a longer message -->
           <div class="form-input-container">
             <label for="message">Message: </label>
             <textarea name="message" id="message"></textarea>
           </div>
 
+          <!-- Checkbox for accepting terms and conditions -->
           <div class="form-input-container checkbox-container">
             <input type="checkbox" />
             <label for="checkbox">Terms and Conditions</label>
           </div>
 
+          <!-- Date picker input -->
           <div class="form-input-container">
             <label for="date">Select Date:</label>
             <input type="date" />
           </div>
 
+          <!-- Buttons for submitting or resetting the form -->
           <button type="submit">Submit</button>
           <button type="reset">Clear Form</button>
         </form>
