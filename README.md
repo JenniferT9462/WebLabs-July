@@ -1,4 +1,4 @@
-# WebLabs-July
+# WebLabs
 
 This project is a practice lab for learning **HTML, CSS, and JavaScript**.  
 It shows how to build a simple web page with a **grid layout**, a **contact form**, and some **JavaScript updates** to the page.
@@ -36,7 +36,7 @@ WebLabs-July/
 
 ---
 
-### 🔎 index.html
+### index.html
 - Creates a **header** with the title.
 - Adds a **sidebar** (empty at first).
 - Adds a **main content area** with the **form**:
